@@ -1,0 +1,26 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  Include:
+    - "bin/**/*.rb"
+    - "lib/**/*.rb"
+  NewCops: enable
+
+Layout/HashAlignment:
+  EnforcedColonStyle: key
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/WordArray:
+  EnforcedStyle: brackets
