@@ -5,6 +5,9 @@ AllCops:
   Include:
     - "bin/**/*.rb"
     - "lib/**/*.rb"
+    - "spec/**/*.rb"
+    - "Gemfile"
+    - "*.gemspec"
   NewCops: enable
 
 Layout/HashAlignment:
