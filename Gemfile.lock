@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    weather_gov (0.1.0)
+    weather_gov (0.1.1)
       activesupport (~> 6.1)
       httparty (~> 0.18.1)
 
