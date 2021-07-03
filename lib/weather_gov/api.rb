@@ -17,7 +17,7 @@ module WeatherGov
     end
 
     def format_coord(value)
-      format("%.2f", value).sub(/0+$/, "")
+      format("%.2f", value).sub(/(\.[0-9])0+$/, "\\1")
     end
 
     def format_coords(lat, lon)
