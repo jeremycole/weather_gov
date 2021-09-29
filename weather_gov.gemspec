@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency("activesupport", "~> 6.1")
-  spec.add_dependency("httparty", ">= 0.18.1", "< 0.20.0")
+  spec.add_dependency("httparty", ">= 0.18.1", "< 0.21.0")
 
   spec.add_development_dependency("rake", "~> 13.0")
   spec.add_development_dependency("rspec", "~> 3.0")
